@@ -12,6 +12,9 @@
       path: /etc/foo2.conf
       state: touch
       mode: u+rw,g-wx,o-rwx
+  - name: Install python3-apt
+    ansible.builtin.apt:
+      name: python3-apt
   - name: Install apache httpd  (state=present is optional)
     ansible.builtin.apt:
       name: apache2
