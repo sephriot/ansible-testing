@@ -8,7 +8,7 @@ spec:
       app: ssh-server # has to match .spec.template.metadata.labels
   serviceName: "ssh-server"
   replicas: 3
-  minReadySeconds: 10 
+  minReadySeconds: 1 
   template:
     metadata:
       labels:
