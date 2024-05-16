@@ -1,6 +1,5 @@
 all:
   vars:
-    ansible_connection: ssh
     ansible_user: bilbo
     ansible_ssh_pass: insecure_password
     ansible_port: 2222
