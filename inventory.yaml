@@ -1,0 +1,15 @@
+all:
+  vars:
+    ansible_connection: ssh
+    ansible_user: bilbo
+    ansible_ssh_pass: insecure_password
+    ansible_port: 22
+
+myhosts:
+  hosts:
+    my_host_01:
+      ansible_host: 10.244.0.43
+    my_host_02:
+      ansible_host: 10.244.0.44
+    my_host_03:
+      ansible_host: 10.244.0.45

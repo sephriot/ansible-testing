@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: ssh-server
+spec:
+  selector:
+    matchLabels:
+      app: ssh-server # has to match .spec.template.metadata.labels
+  serviceName: "ssh-server"
+  replicas: 3
+  minReadySeconds: 10 
+  template:
+    metadata:
+      labels:
+        app: ssh-server # has to match .spec.selector.matchLabels
+    spec:
+      containers:
+      - name: ssh-server
+        image: sshd-image
+        imagePullPolicy: IfNotPresent
+        command: ["/bin/sh", "-c"]
+        args: ["service ssh start && sleep 810000"]
+        ports:
+        - containerPort: 22
+          name: ssh
