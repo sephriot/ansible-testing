@@ -7,6 +7,7 @@
       state: touch
       mode: u=rw,g=r,o=r
   - name: Touch the other file, add other permissions
+    become: true
     ansible.builtin.file:
       path: /etc/foo2.conf
       state: touch
