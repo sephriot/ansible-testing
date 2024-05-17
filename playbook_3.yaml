@@ -3,3 +3,4 @@
   - name: Hello World!
     shell: echo "Hi! Ansible integration is working."
     check_mode: false
+    when: ansible_check_mode
