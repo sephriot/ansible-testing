@@ -1,12 +1,5 @@
 - hosts: myhosts
   tasks:
-  - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-    become: true
-    when: ansible_check_mode
-    ansible.builtin.file:
-      path: /tmp/e2e_test.txt
-      state: touch
-      mode: u=rw,g=r,o=r
-
   - name: Hello World!
     shell: echo "Hi! Ansible integration is working."
+    check_mode: false
