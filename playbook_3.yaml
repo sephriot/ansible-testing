@@ -1,11 +1,18 @@
 - hosts: myhosts
   tasks:
-  - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
+  - name: Install apache httpd  (state=present is optional)
     become: true
-    ansible.builtin.file:
-      path: /tmp/e2e_test.txt
-      state: touch
-      mode: u=rw,g=r,o=r
+    ansible.builtin.apt:
+      name: apache2
+      update_cache: yes
+      state: present
+      when: ansible_check_mode
+  - name: Install apache httpd  (state=present is optional)
+    become: true
+    ansible.builtin.apt:
+      name: apache2
+      update_cache: yes
+      state: absent
       when: ansible_check_mode
   - name: Hello World!
     shell: echo "Hi! Ansible integration is working."
