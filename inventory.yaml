@@ -13,3 +13,5 @@ myhosts:
       ansible_host: 10.244.0.8
     my_host_03:
       ansible_host: 10.244.0.6
+
+  
