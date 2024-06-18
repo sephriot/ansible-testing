@@ -13,3 +13,10 @@ ssh -p 2222 bilbo@localhost
 ```
 kind load docker-image sshd-image
 ```
+
+## Ansible runner
+
+```
+docker build -t localhost:5001/ansible-runner .
+docker push localhost:5001/ansible-runner
+```

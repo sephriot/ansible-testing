@@ -13,3 +13,8 @@ myhosts:
       ansible_host: ansible_host_1
     my_host_03:
       ansible_host: ansible_host_2
+
+skip_nginx:
+  hosts:
+    my_host_01:
+      ansible_host: ansible_host_0
