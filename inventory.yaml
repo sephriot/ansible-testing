@@ -8,8 +8,8 @@ all:
 myhosts:
   hosts:
     my_host_01:
-      ansible_host: 10.244.0.5
+      ansible_host: 10.244.0.9
     my_host_02:
-      ansible_host: 10.244.0.3
+      ansible_host: 10.244.0.10
     my_host_03:
-      ansible_host: 10.244.0.2
+      ansible_host: 10.244.0.11
