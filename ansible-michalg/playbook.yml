@@ -55,7 +55,7 @@
       ansible.builtin.service:
         name: apache2
         state: started
-      ignore_errors: "{{ ansible_check_mode }}"
+      ignore_errors: True
 
   handlers:
     - name: "server restart"
