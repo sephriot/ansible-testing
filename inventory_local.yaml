@@ -9,3 +9,8 @@ myhosts:
   hosts:
     my_host_01:
       ansible_host: localhost
+
+skip_nginx:
+  hosts:
+    my_host_01:
+      ansible_host: localhost
