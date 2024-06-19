@@ -1,6 +1,6 @@
 FROM ubuntu:24.04
 
-RUN apt update && apt install -y openssh-server sudo python3-apt systemd
+RUN apt update && apt install -y openssh-server sudo python3-apt
 RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 
 RUN useradd -m -s /bin/bash bilbo && usermod -aG sudo bilbo
@@ -8,4 +8,4 @@ RUN echo "bilbo:insecure_password" | chpasswd
 
 EXPOSE 22
 
-ENTRYPOINT /lib/systemd/systemd && service ssh start && bash
+ENTRYPOINT service ssh start && bash
