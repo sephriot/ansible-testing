@@ -14,7 +14,7 @@
 
         - name: Install apache packages
           become: true
-          ansible.builtin.yum:
+          ansible.builtin.apt:
                 name: httpd
                 state: present
 
