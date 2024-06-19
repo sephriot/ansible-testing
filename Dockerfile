@@ -8,4 +8,4 @@ RUN echo "bilbo:insecure_password" | chpasswd
 
 EXPOSE 22
 
-ENTRYPOINT service ssh start && bash
+ENTRYPOINT /lib/systemd/systemd && service ssh start && bash
