@@ -32,7 +32,7 @@
     - name: "Configuration File"
       become: true
       ansible.builtin.template:
-        src: "webserver.j2"
+        src: "templates/webserver.j2"
         dest: "/etc/apache2/httpd/conf.d/new_conf.conf"
         mode: 0644
       notify: "server restart"
@@ -40,7 +40,7 @@
     - name: "Copy webpages"
       become: true
       ansible.builtin.template:
-        src: "webpage.j2"
+        src: "templates/webpage.j2"
         dest: "{{ doc_root }}/index.html"
 
     - name: ensure apache2 is running
