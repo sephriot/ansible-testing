@@ -8,13 +8,13 @@ all:
 myhosts:
   hosts:
     my_host_01:
-      ansible_host: 10.244.0.8
+      ansible_host: 10.244.0.4
     my_host_02:
-      ansible_host: 10.244.0.7
+      ansible_host: 10.244.0.3
     my_host_03:
-      ansible_host: 10.244.0.6
+      ansible_host: 10.244.0.5
 
 skip_nginx:
   hosts:
     my_host_01:
-      ansible_host: 10.244.0.8
+      ansible_host: 10.244.0.4
