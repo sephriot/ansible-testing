@@ -30,4 +30,3 @@
   copy:
     src: files/index.html
     dest: "{{ nginx_custom_directory }}/index.html"
-  notify: Restart the Nginx service
