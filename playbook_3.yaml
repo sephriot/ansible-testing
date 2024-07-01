@@ -1,6 +1,12 @@
+
 - hosts: myhosts
   tasks:
+  - name: Skip planning
+    set_fact:
+      skip_planning: "{{ lookup('env', 'SPACELIFT_SKIP_PLANNING') | default('False', True) }}"
+
   - name: Hello World!
     shell: echo "Hi! Ansible integration is working."
     check_mode: false
-    when: ansible_check_mode
+    when: skip_planning != True
+
