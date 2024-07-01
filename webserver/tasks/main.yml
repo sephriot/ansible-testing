@@ -20,6 +20,7 @@
     dest: /etc/nginx/sites-enabled/default
     src: /etc/nginx/sites-available/default
     state: link
+    force: yes
  
 - name: Create Nginx directory
   ansible.builtin.file:
