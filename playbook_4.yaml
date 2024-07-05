@@ -28,7 +28,7 @@
   - name: intentional fail to produce ignore
     command: rm /tmp/nonexistingfile
     register: command_result
-    ignore_errors: True
+    ignore_errors: yes
   - name: intentional rescue
     block:
       - name: Print a message
