@@ -10,7 +10,7 @@ myhosts:
     my_host_01:
       ansible_host: 10.244.0.3
     my_host_02:
-      ansible_host: 10.244.0.8
+      ansible_host: 10.244.0.6
     my_host_03:
       ansible_host: 10.244.0.7
 
