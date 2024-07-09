@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm -rf ./artifacts/apply/job_events/*
-ansible-runner run -i apply --artifact-dir=artifacts . -p nested/playbook_1_roles.yaml
+ansible-runner run -i apply --artifact-dir=artifacts . -p nested/playbook_1_roles.yaml --inventory inventory_local.yaml
 
 cd ./artifacts/apply/job_events
 
