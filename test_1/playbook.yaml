@@ -2,8 +2,6 @@
   hosts: localhost
   connection: local
   roles:
-    - role: "../webserver"
-      become: false
     - role: geerlingguy.java
       become: false
 
