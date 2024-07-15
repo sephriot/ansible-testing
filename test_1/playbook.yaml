@@ -20,9 +20,16 @@
       mode: u+rw,g-wx,o-rwx
   - name: Install apache httpd  (state=present is optional)
     become: true
+    ignore_errors: true
     community.general.apk:
       name: apache2
       update_cache: yes
       state: present
-
+  - name: Skipped example
+    become: true
+    when: false
+    community.general.apk:
+      name: apache2
+      update_cache: yes
+      state: present
  
