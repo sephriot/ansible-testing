@@ -2,7 +2,7 @@
   hosts: localhost
   connection: local
   roles:
-    - role: geerlingguy.java
+    - role: webofmars.dummy
       become: false
 
   tasks:
