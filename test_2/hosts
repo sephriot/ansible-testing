@@ -1,0 +1,20 @@
+all:
+  vars:
+    ansible_user: bilbo
+    ansible_ssh_pass: insecure_password
+    ansible_port: 2222
+    ansible_sudo_pass: insecure_password
+
+myhosts:
+  hosts:
+    my_host_01:
+      ansible_host: localhost
+    my_host_02:
+      ansible_host: localhost
+    my_host_03:
+      ansible_host: localhost
+
+skip_nginx:
+  hosts:
+    my_host_01:
+      ansible_host: localhost
