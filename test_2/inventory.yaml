@@ -1,10 +1,2006 @@
 myhosts:
   hosts:
-    my_host_01:
+    my_host_0:
       ansible_host: localhost
-    my_host_02:
+    my_host_1:
       ansible_host: localhost
-    my_host_03:
+    my_host_2:
+      ansible_host: localhost
+    my_host_3:
+      ansible_host: localhost
+    my_host_4:
+      ansible_host: localhost
+    my_host_5:
+      ansible_host: localhost
+    my_host_6:
+      ansible_host: localhost
+    my_host_7:
+      ansible_host: localhost
+    my_host_8:
+      ansible_host: localhost
+    my_host_9:
+      ansible_host: localhost
+    my_host_10:
+      ansible_host: localhost
+    my_host_11:
+      ansible_host: localhost
+    my_host_12:
+      ansible_host: localhost
+    my_host_13:
+      ansible_host: localhost
+    my_host_14:
+      ansible_host: localhost
+    my_host_15:
+      ansible_host: localhost
+    my_host_16:
+      ansible_host: localhost
+    my_host_17:
+      ansible_host: localhost
+    my_host_18:
+      ansible_host: localhost
+    my_host_19:
+      ansible_host: localhost
+    my_host_20:
+      ansible_host: localhost
+    my_host_21:
+      ansible_host: localhost
+    my_host_22:
+      ansible_host: localhost
+    my_host_23:
+      ansible_host: localhost
+    my_host_24:
+      ansible_host: localhost
+    my_host_25:
+      ansible_host: localhost
+    my_host_26:
+      ansible_host: localhost
+    my_host_27:
+      ansible_host: localhost
+    my_host_28:
+      ansible_host: localhost
+    my_host_29:
+      ansible_host: localhost
+    my_host_30:
+      ansible_host: localhost
+    my_host_31:
+      ansible_host: localhost
+    my_host_32:
+      ansible_host: localhost
+    my_host_33:
+      ansible_host: localhost
+    my_host_34:
+      ansible_host: localhost
+    my_host_35:
+      ansible_host: localhost
+    my_host_36:
+      ansible_host: localhost
+    my_host_37:
+      ansible_host: localhost
+    my_host_38:
+      ansible_host: localhost
+    my_host_39:
+      ansible_host: localhost
+    my_host_40:
+      ansible_host: localhost
+    my_host_41:
+      ansible_host: localhost
+    my_host_42:
+      ansible_host: localhost
+    my_host_43:
+      ansible_host: localhost
+    my_host_44:
+      ansible_host: localhost
+    my_host_45:
+      ansible_host: localhost
+    my_host_46:
+      ansible_host: localhost
+    my_host_47:
+      ansible_host: localhost
+    my_host_48:
+      ansible_host: localhost
+    my_host_49:
+      ansible_host: localhost
+    my_host_50:
+      ansible_host: localhost
+    my_host_51:
+      ansible_host: localhost
+    my_host_52:
+      ansible_host: localhost
+    my_host_53:
+      ansible_host: localhost
+    my_host_54:
+      ansible_host: localhost
+    my_host_55:
+      ansible_host: localhost
+    my_host_56:
+      ansible_host: localhost
+    my_host_57:
+      ansible_host: localhost
+    my_host_58:
+      ansible_host: localhost
+    my_host_59:
+      ansible_host: localhost
+    my_host_60:
+      ansible_host: localhost
+    my_host_61:
+      ansible_host: localhost
+    my_host_62:
+      ansible_host: localhost
+    my_host_63:
+      ansible_host: localhost
+    my_host_64:
+      ansible_host: localhost
+    my_host_65:
+      ansible_host: localhost
+    my_host_66:
+      ansible_host: localhost
+    my_host_67:
+      ansible_host: localhost
+    my_host_68:
+      ansible_host: localhost
+    my_host_69:
+      ansible_host: localhost
+    my_host_70:
+      ansible_host: localhost
+    my_host_71:
+      ansible_host: localhost
+    my_host_72:
+      ansible_host: localhost
+    my_host_73:
+      ansible_host: localhost
+    my_host_74:
+      ansible_host: localhost
+    my_host_75:
+      ansible_host: localhost
+    my_host_76:
+      ansible_host: localhost
+    my_host_77:
+      ansible_host: localhost
+    my_host_78:
+      ansible_host: localhost
+    my_host_79:
+      ansible_host: localhost
+    my_host_80:
+      ansible_host: localhost
+    my_host_81:
+      ansible_host: localhost
+    my_host_82:
+      ansible_host: localhost
+    my_host_83:
+      ansible_host: localhost
+    my_host_84:
+      ansible_host: localhost
+    my_host_85:
+      ansible_host: localhost
+    my_host_86:
+      ansible_host: localhost
+    my_host_87:
+      ansible_host: localhost
+    my_host_88:
+      ansible_host: localhost
+    my_host_89:
+      ansible_host: localhost
+    my_host_90:
+      ansible_host: localhost
+    my_host_91:
+      ansible_host: localhost
+    my_host_92:
+      ansible_host: localhost
+    my_host_93:
+      ansible_host: localhost
+    my_host_94:
+      ansible_host: localhost
+    my_host_95:
+      ansible_host: localhost
+    my_host_96:
+      ansible_host: localhost
+    my_host_97:
+      ansible_host: localhost
+    my_host_98:
+      ansible_host: localhost
+    my_host_99:
+      ansible_host: localhost
+    my_host_100:
+      ansible_host: localhost
+    my_host_101:
+      ansible_host: localhost
+    my_host_102:
+      ansible_host: localhost
+    my_host_103:
+      ansible_host: localhost
+    my_host_104:
+      ansible_host: localhost
+    my_host_105:
+      ansible_host: localhost
+    my_host_106:
+      ansible_host: localhost
+    my_host_107:
+      ansible_host: localhost
+    my_host_108:
+      ansible_host: localhost
+    my_host_109:
+      ansible_host: localhost
+    my_host_110:
+      ansible_host: localhost
+    my_host_111:
+      ansible_host: localhost
+    my_host_112:
+      ansible_host: localhost
+    my_host_113:
+      ansible_host: localhost
+    my_host_114:
+      ansible_host: localhost
+    my_host_115:
+      ansible_host: localhost
+    my_host_116:
+      ansible_host: localhost
+    my_host_117:
+      ansible_host: localhost
+    my_host_118:
+      ansible_host: localhost
+    my_host_119:
+      ansible_host: localhost
+    my_host_120:
+      ansible_host: localhost
+    my_host_121:
+      ansible_host: localhost
+    my_host_122:
+      ansible_host: localhost
+    my_host_123:
+      ansible_host: localhost
+    my_host_124:
+      ansible_host: localhost
+    my_host_125:
+      ansible_host: localhost
+    my_host_126:
+      ansible_host: localhost
+    my_host_127:
+      ansible_host: localhost
+    my_host_128:
+      ansible_host: localhost
+    my_host_129:
+      ansible_host: localhost
+    my_host_130:
+      ansible_host: localhost
+    my_host_131:
+      ansible_host: localhost
+    my_host_132:
+      ansible_host: localhost
+    my_host_133:
+      ansible_host: localhost
+    my_host_134:
+      ansible_host: localhost
+    my_host_135:
+      ansible_host: localhost
+    my_host_136:
+      ansible_host: localhost
+    my_host_137:
+      ansible_host: localhost
+    my_host_138:
+      ansible_host: localhost
+    my_host_139:
+      ansible_host: localhost
+    my_host_140:
+      ansible_host: localhost
+    my_host_141:
+      ansible_host: localhost
+    my_host_142:
+      ansible_host: localhost
+    my_host_143:
+      ansible_host: localhost
+    my_host_144:
+      ansible_host: localhost
+    my_host_145:
+      ansible_host: localhost
+    my_host_146:
+      ansible_host: localhost
+    my_host_147:
+      ansible_host: localhost
+    my_host_148:
+      ansible_host: localhost
+    my_host_149:
+      ansible_host: localhost
+    my_host_150:
+      ansible_host: localhost
+    my_host_151:
+      ansible_host: localhost
+    my_host_152:
+      ansible_host: localhost
+    my_host_153:
+      ansible_host: localhost
+    my_host_154:
+      ansible_host: localhost
+    my_host_155:
+      ansible_host: localhost
+    my_host_156:
+      ansible_host: localhost
+    my_host_157:
+      ansible_host: localhost
+    my_host_158:
+      ansible_host: localhost
+    my_host_159:
+      ansible_host: localhost
+    my_host_160:
+      ansible_host: localhost
+    my_host_161:
+      ansible_host: localhost
+    my_host_162:
+      ansible_host: localhost
+    my_host_163:
+      ansible_host: localhost
+    my_host_164:
+      ansible_host: localhost
+    my_host_165:
+      ansible_host: localhost
+    my_host_166:
+      ansible_host: localhost
+    my_host_167:
+      ansible_host: localhost
+    my_host_168:
+      ansible_host: localhost
+    my_host_169:
+      ansible_host: localhost
+    my_host_170:
+      ansible_host: localhost
+    my_host_171:
+      ansible_host: localhost
+    my_host_172:
+      ansible_host: localhost
+    my_host_173:
+      ansible_host: localhost
+    my_host_174:
+      ansible_host: localhost
+    my_host_175:
+      ansible_host: localhost
+    my_host_176:
+      ansible_host: localhost
+    my_host_177:
+      ansible_host: localhost
+    my_host_178:
+      ansible_host: localhost
+    my_host_179:
+      ansible_host: localhost
+    my_host_180:
+      ansible_host: localhost
+    my_host_181:
+      ansible_host: localhost
+    my_host_182:
+      ansible_host: localhost
+    my_host_183:
+      ansible_host: localhost
+    my_host_184:
+      ansible_host: localhost
+    my_host_185:
+      ansible_host: localhost
+    my_host_186:
+      ansible_host: localhost
+    my_host_187:
+      ansible_host: localhost
+    my_host_188:
+      ansible_host: localhost
+    my_host_189:
+      ansible_host: localhost
+    my_host_190:
+      ansible_host: localhost
+    my_host_191:
+      ansible_host: localhost
+    my_host_192:
+      ansible_host: localhost
+    my_host_193:
+      ansible_host: localhost
+    my_host_194:
+      ansible_host: localhost
+    my_host_195:
+      ansible_host: localhost
+    my_host_196:
+      ansible_host: localhost
+    my_host_197:
+      ansible_host: localhost
+    my_host_198:
+      ansible_host: localhost
+    my_host_199:
+      ansible_host: localhost
+    my_host_200:
+      ansible_host: localhost
+    my_host_201:
+      ansible_host: localhost
+    my_host_202:
+      ansible_host: localhost
+    my_host_203:
+      ansible_host: localhost
+    my_host_204:
+      ansible_host: localhost
+    my_host_205:
+      ansible_host: localhost
+    my_host_206:
+      ansible_host: localhost
+    my_host_207:
+      ansible_host: localhost
+    my_host_208:
+      ansible_host: localhost
+    my_host_209:
+      ansible_host: localhost
+    my_host_210:
+      ansible_host: localhost
+    my_host_211:
+      ansible_host: localhost
+    my_host_212:
+      ansible_host: localhost
+    my_host_213:
+      ansible_host: localhost
+    my_host_214:
+      ansible_host: localhost
+    my_host_215:
+      ansible_host: localhost
+    my_host_216:
+      ansible_host: localhost
+    my_host_217:
+      ansible_host: localhost
+    my_host_218:
+      ansible_host: localhost
+    my_host_219:
+      ansible_host: localhost
+    my_host_220:
+      ansible_host: localhost
+    my_host_221:
+      ansible_host: localhost
+    my_host_222:
+      ansible_host: localhost
+    my_host_223:
+      ansible_host: localhost
+    my_host_224:
+      ansible_host: localhost
+    my_host_225:
+      ansible_host: localhost
+    my_host_226:
+      ansible_host: localhost
+    my_host_227:
+      ansible_host: localhost
+    my_host_228:
+      ansible_host: localhost
+    my_host_229:
+      ansible_host: localhost
+    my_host_230:
+      ansible_host: localhost
+    my_host_231:
+      ansible_host: localhost
+    my_host_232:
+      ansible_host: localhost
+    my_host_233:
+      ansible_host: localhost
+    my_host_234:
+      ansible_host: localhost
+    my_host_235:
+      ansible_host: localhost
+    my_host_236:
+      ansible_host: localhost
+    my_host_237:
+      ansible_host: localhost
+    my_host_238:
+      ansible_host: localhost
+    my_host_239:
+      ansible_host: localhost
+    my_host_240:
+      ansible_host: localhost
+    my_host_241:
+      ansible_host: localhost
+    my_host_242:
+      ansible_host: localhost
+    my_host_243:
+      ansible_host: localhost
+    my_host_244:
+      ansible_host: localhost
+    my_host_245:
+      ansible_host: localhost
+    my_host_246:
+      ansible_host: localhost
+    my_host_247:
+      ansible_host: localhost
+    my_host_248:
+      ansible_host: localhost
+    my_host_249:
+      ansible_host: localhost
+    my_host_250:
+      ansible_host: localhost
+    my_host_251:
+      ansible_host: localhost
+    my_host_252:
+      ansible_host: localhost
+    my_host_253:
+      ansible_host: localhost
+    my_host_254:
+      ansible_host: localhost
+    my_host_255:
+      ansible_host: localhost
+    my_host_256:
+      ansible_host: localhost
+    my_host_257:
+      ansible_host: localhost
+    my_host_258:
+      ansible_host: localhost
+    my_host_259:
+      ansible_host: localhost
+    my_host_260:
+      ansible_host: localhost
+    my_host_261:
+      ansible_host: localhost
+    my_host_262:
+      ansible_host: localhost
+    my_host_263:
+      ansible_host: localhost
+    my_host_264:
+      ansible_host: localhost
+    my_host_265:
+      ansible_host: localhost
+    my_host_266:
+      ansible_host: localhost
+    my_host_267:
+      ansible_host: localhost
+    my_host_268:
+      ansible_host: localhost
+    my_host_269:
+      ansible_host: localhost
+    my_host_270:
+      ansible_host: localhost
+    my_host_271:
+      ansible_host: localhost
+    my_host_272:
+      ansible_host: localhost
+    my_host_273:
+      ansible_host: localhost
+    my_host_274:
+      ansible_host: localhost
+    my_host_275:
+      ansible_host: localhost
+    my_host_276:
+      ansible_host: localhost
+    my_host_277:
+      ansible_host: localhost
+    my_host_278:
+      ansible_host: localhost
+    my_host_279:
+      ansible_host: localhost
+    my_host_280:
+      ansible_host: localhost
+    my_host_281:
+      ansible_host: localhost
+    my_host_282:
+      ansible_host: localhost
+    my_host_283:
+      ansible_host: localhost
+    my_host_284:
+      ansible_host: localhost
+    my_host_285:
+      ansible_host: localhost
+    my_host_286:
+      ansible_host: localhost
+    my_host_287:
+      ansible_host: localhost
+    my_host_288:
+      ansible_host: localhost
+    my_host_289:
+      ansible_host: localhost
+    my_host_290:
+      ansible_host: localhost
+    my_host_291:
+      ansible_host: localhost
+    my_host_292:
+      ansible_host: localhost
+    my_host_293:
+      ansible_host: localhost
+    my_host_294:
+      ansible_host: localhost
+    my_host_295:
+      ansible_host: localhost
+    my_host_296:
+      ansible_host: localhost
+    my_host_297:
+      ansible_host: localhost
+    my_host_298:
+      ansible_host: localhost
+    my_host_299:
+      ansible_host: localhost
+    my_host_300:
+      ansible_host: localhost
+    my_host_301:
+      ansible_host: localhost
+    my_host_302:
+      ansible_host: localhost
+    my_host_303:
+      ansible_host: localhost
+    my_host_304:
+      ansible_host: localhost
+    my_host_305:
+      ansible_host: localhost
+    my_host_306:
+      ansible_host: localhost
+    my_host_307:
+      ansible_host: localhost
+    my_host_308:
+      ansible_host: localhost
+    my_host_309:
+      ansible_host: localhost
+    my_host_310:
+      ansible_host: localhost
+    my_host_311:
+      ansible_host: localhost
+    my_host_312:
+      ansible_host: localhost
+    my_host_313:
+      ansible_host: localhost
+    my_host_314:
+      ansible_host: localhost
+    my_host_315:
+      ansible_host: localhost
+    my_host_316:
+      ansible_host: localhost
+    my_host_317:
+      ansible_host: localhost
+    my_host_318:
+      ansible_host: localhost
+    my_host_319:
+      ansible_host: localhost
+    my_host_320:
+      ansible_host: localhost
+    my_host_321:
+      ansible_host: localhost
+    my_host_322:
+      ansible_host: localhost
+    my_host_323:
+      ansible_host: localhost
+    my_host_324:
+      ansible_host: localhost
+    my_host_325:
+      ansible_host: localhost
+    my_host_326:
+      ansible_host: localhost
+    my_host_327:
+      ansible_host: localhost
+    my_host_328:
+      ansible_host: localhost
+    my_host_329:
+      ansible_host: localhost
+    my_host_330:
+      ansible_host: localhost
+    my_host_331:
+      ansible_host: localhost
+    my_host_332:
+      ansible_host: localhost
+    my_host_333:
+      ansible_host: localhost
+    my_host_334:
+      ansible_host: localhost
+    my_host_335:
+      ansible_host: localhost
+    my_host_336:
+      ansible_host: localhost
+    my_host_337:
+      ansible_host: localhost
+    my_host_338:
+      ansible_host: localhost
+    my_host_339:
+      ansible_host: localhost
+    my_host_340:
+      ansible_host: localhost
+    my_host_341:
+      ansible_host: localhost
+    my_host_342:
+      ansible_host: localhost
+    my_host_343:
+      ansible_host: localhost
+    my_host_344:
+      ansible_host: localhost
+    my_host_345:
+      ansible_host: localhost
+    my_host_346:
+      ansible_host: localhost
+    my_host_347:
+      ansible_host: localhost
+    my_host_348:
+      ansible_host: localhost
+    my_host_349:
+      ansible_host: localhost
+    my_host_350:
+      ansible_host: localhost
+    my_host_351:
+      ansible_host: localhost
+    my_host_352:
+      ansible_host: localhost
+    my_host_353:
+      ansible_host: localhost
+    my_host_354:
+      ansible_host: localhost
+    my_host_355:
+      ansible_host: localhost
+    my_host_356:
+      ansible_host: localhost
+    my_host_357:
+      ansible_host: localhost
+    my_host_358:
+      ansible_host: localhost
+    my_host_359:
+      ansible_host: localhost
+    my_host_360:
+      ansible_host: localhost
+    my_host_361:
+      ansible_host: localhost
+    my_host_362:
+      ansible_host: localhost
+    my_host_363:
+      ansible_host: localhost
+    my_host_364:
+      ansible_host: localhost
+    my_host_365:
+      ansible_host: localhost
+    my_host_366:
+      ansible_host: localhost
+    my_host_367:
+      ansible_host: localhost
+    my_host_368:
+      ansible_host: localhost
+    my_host_369:
+      ansible_host: localhost
+    my_host_370:
+      ansible_host: localhost
+    my_host_371:
+      ansible_host: localhost
+    my_host_372:
+      ansible_host: localhost
+    my_host_373:
+      ansible_host: localhost
+    my_host_374:
+      ansible_host: localhost
+    my_host_375:
+      ansible_host: localhost
+    my_host_376:
+      ansible_host: localhost
+    my_host_377:
+      ansible_host: localhost
+    my_host_378:
+      ansible_host: localhost
+    my_host_379:
+      ansible_host: localhost
+    my_host_380:
+      ansible_host: localhost
+    my_host_381:
+      ansible_host: localhost
+    my_host_382:
+      ansible_host: localhost
+    my_host_383:
+      ansible_host: localhost
+    my_host_384:
+      ansible_host: localhost
+    my_host_385:
+      ansible_host: localhost
+    my_host_386:
+      ansible_host: localhost
+    my_host_387:
+      ansible_host: localhost
+    my_host_388:
+      ansible_host: localhost
+    my_host_389:
+      ansible_host: localhost
+    my_host_390:
+      ansible_host: localhost
+    my_host_391:
+      ansible_host: localhost
+    my_host_392:
+      ansible_host: localhost
+    my_host_393:
+      ansible_host: localhost
+    my_host_394:
+      ansible_host: localhost
+    my_host_395:
+      ansible_host: localhost
+    my_host_396:
+      ansible_host: localhost
+    my_host_397:
+      ansible_host: localhost
+    my_host_398:
+      ansible_host: localhost
+    my_host_399:
+      ansible_host: localhost
+    my_host_400:
+      ansible_host: localhost
+    my_host_401:
+      ansible_host: localhost
+    my_host_402:
+      ansible_host: localhost
+    my_host_403:
+      ansible_host: localhost
+    my_host_404:
+      ansible_host: localhost
+    my_host_405:
+      ansible_host: localhost
+    my_host_406:
+      ansible_host: localhost
+    my_host_407:
+      ansible_host: localhost
+    my_host_408:
+      ansible_host: localhost
+    my_host_409:
+      ansible_host: localhost
+    my_host_410:
+      ansible_host: localhost
+    my_host_411:
+      ansible_host: localhost
+    my_host_412:
+      ansible_host: localhost
+    my_host_413:
+      ansible_host: localhost
+    my_host_414:
+      ansible_host: localhost
+    my_host_415:
+      ansible_host: localhost
+    my_host_416:
+      ansible_host: localhost
+    my_host_417:
+      ansible_host: localhost
+    my_host_418:
+      ansible_host: localhost
+    my_host_419:
+      ansible_host: localhost
+    my_host_420:
+      ansible_host: localhost
+    my_host_421:
+      ansible_host: localhost
+    my_host_422:
+      ansible_host: localhost
+    my_host_423:
+      ansible_host: localhost
+    my_host_424:
+      ansible_host: localhost
+    my_host_425:
+      ansible_host: localhost
+    my_host_426:
+      ansible_host: localhost
+    my_host_427:
+      ansible_host: localhost
+    my_host_428:
+      ansible_host: localhost
+    my_host_429:
+      ansible_host: localhost
+    my_host_430:
+      ansible_host: localhost
+    my_host_431:
+      ansible_host: localhost
+    my_host_432:
+      ansible_host: localhost
+    my_host_433:
+      ansible_host: localhost
+    my_host_434:
+      ansible_host: localhost
+    my_host_435:
+      ansible_host: localhost
+    my_host_436:
+      ansible_host: localhost
+    my_host_437:
+      ansible_host: localhost
+    my_host_438:
+      ansible_host: localhost
+    my_host_439:
+      ansible_host: localhost
+    my_host_440:
+      ansible_host: localhost
+    my_host_441:
+      ansible_host: localhost
+    my_host_442:
+      ansible_host: localhost
+    my_host_443:
+      ansible_host: localhost
+    my_host_444:
+      ansible_host: localhost
+    my_host_445:
+      ansible_host: localhost
+    my_host_446:
+      ansible_host: localhost
+    my_host_447:
+      ansible_host: localhost
+    my_host_448:
+      ansible_host: localhost
+    my_host_449:
+      ansible_host: localhost
+    my_host_450:
+      ansible_host: localhost
+    my_host_451:
+      ansible_host: localhost
+    my_host_452:
+      ansible_host: localhost
+    my_host_453:
+      ansible_host: localhost
+    my_host_454:
+      ansible_host: localhost
+    my_host_455:
+      ansible_host: localhost
+    my_host_456:
+      ansible_host: localhost
+    my_host_457:
+      ansible_host: localhost
+    my_host_458:
+      ansible_host: localhost
+    my_host_459:
+      ansible_host: localhost
+    my_host_460:
+      ansible_host: localhost
+    my_host_461:
+      ansible_host: localhost
+    my_host_462:
+      ansible_host: localhost
+    my_host_463:
+      ansible_host: localhost
+    my_host_464:
+      ansible_host: localhost
+    my_host_465:
+      ansible_host: localhost
+    my_host_466:
+      ansible_host: localhost
+    my_host_467:
+      ansible_host: localhost
+    my_host_468:
+      ansible_host: localhost
+    my_host_469:
+      ansible_host: localhost
+    my_host_470:
+      ansible_host: localhost
+    my_host_471:
+      ansible_host: localhost
+    my_host_472:
+      ansible_host: localhost
+    my_host_473:
+      ansible_host: localhost
+    my_host_474:
+      ansible_host: localhost
+    my_host_475:
+      ansible_host: localhost
+    my_host_476:
+      ansible_host: localhost
+    my_host_477:
+      ansible_host: localhost
+    my_host_478:
+      ansible_host: localhost
+    my_host_479:
+      ansible_host: localhost
+    my_host_480:
+      ansible_host: localhost
+    my_host_481:
+      ansible_host: localhost
+    my_host_482:
+      ansible_host: localhost
+    my_host_483:
+      ansible_host: localhost
+    my_host_484:
+      ansible_host: localhost
+    my_host_485:
+      ansible_host: localhost
+    my_host_486:
+      ansible_host: localhost
+    my_host_487:
+      ansible_host: localhost
+    my_host_488:
+      ansible_host: localhost
+    my_host_489:
+      ansible_host: localhost
+    my_host_490:
+      ansible_host: localhost
+    my_host_491:
+      ansible_host: localhost
+    my_host_492:
+      ansible_host: localhost
+    my_host_493:
+      ansible_host: localhost
+    my_host_494:
+      ansible_host: localhost
+    my_host_495:
+      ansible_host: localhost
+    my_host_496:
+      ansible_host: localhost
+    my_host_497:
+      ansible_host: localhost
+    my_host_498:
+      ansible_host: localhost
+    my_host_499:
+      ansible_host: localhost
+    my_host_500:
+      ansible_host: localhost
+    my_host_501:
+      ansible_host: localhost
+    my_host_502:
+      ansible_host: localhost
+    my_host_503:
+      ansible_host: localhost
+    my_host_504:
+      ansible_host: localhost
+    my_host_505:
+      ansible_host: localhost
+    my_host_506:
+      ansible_host: localhost
+    my_host_507:
+      ansible_host: localhost
+    my_host_508:
+      ansible_host: localhost
+    my_host_509:
+      ansible_host: localhost
+    my_host_510:
+      ansible_host: localhost
+    my_host_511:
+      ansible_host: localhost
+    my_host_512:
+      ansible_host: localhost
+    my_host_513:
+      ansible_host: localhost
+    my_host_514:
+      ansible_host: localhost
+    my_host_515:
+      ansible_host: localhost
+    my_host_516:
+      ansible_host: localhost
+    my_host_517:
+      ansible_host: localhost
+    my_host_518:
+      ansible_host: localhost
+    my_host_519:
+      ansible_host: localhost
+    my_host_520:
+      ansible_host: localhost
+    my_host_521:
+      ansible_host: localhost
+    my_host_522:
+      ansible_host: localhost
+    my_host_523:
+      ansible_host: localhost
+    my_host_524:
+      ansible_host: localhost
+    my_host_525:
+      ansible_host: localhost
+    my_host_526:
+      ansible_host: localhost
+    my_host_527:
+      ansible_host: localhost
+    my_host_528:
+      ansible_host: localhost
+    my_host_529:
+      ansible_host: localhost
+    my_host_530:
+      ansible_host: localhost
+    my_host_531:
+      ansible_host: localhost
+    my_host_532:
+      ansible_host: localhost
+    my_host_533:
+      ansible_host: localhost
+    my_host_534:
+      ansible_host: localhost
+    my_host_535:
+      ansible_host: localhost
+    my_host_536:
+      ansible_host: localhost
+    my_host_537:
+      ansible_host: localhost
+    my_host_538:
+      ansible_host: localhost
+    my_host_539:
+      ansible_host: localhost
+    my_host_540:
+      ansible_host: localhost
+    my_host_541:
+      ansible_host: localhost
+    my_host_542:
+      ansible_host: localhost
+    my_host_543:
+      ansible_host: localhost
+    my_host_544:
+      ansible_host: localhost
+    my_host_545:
+      ansible_host: localhost
+    my_host_546:
+      ansible_host: localhost
+    my_host_547:
+      ansible_host: localhost
+    my_host_548:
+      ansible_host: localhost
+    my_host_549:
+      ansible_host: localhost
+    my_host_550:
+      ansible_host: localhost
+    my_host_551:
+      ansible_host: localhost
+    my_host_552:
+      ansible_host: localhost
+    my_host_553:
+      ansible_host: localhost
+    my_host_554:
+      ansible_host: localhost
+    my_host_555:
+      ansible_host: localhost
+    my_host_556:
+      ansible_host: localhost
+    my_host_557:
+      ansible_host: localhost
+    my_host_558:
+      ansible_host: localhost
+    my_host_559:
+      ansible_host: localhost
+    my_host_560:
+      ansible_host: localhost
+    my_host_561:
+      ansible_host: localhost
+    my_host_562:
+      ansible_host: localhost
+    my_host_563:
+      ansible_host: localhost
+    my_host_564:
+      ansible_host: localhost
+    my_host_565:
+      ansible_host: localhost
+    my_host_566:
+      ansible_host: localhost
+    my_host_567:
+      ansible_host: localhost
+    my_host_568:
+      ansible_host: localhost
+    my_host_569:
+      ansible_host: localhost
+    my_host_570:
+      ansible_host: localhost
+    my_host_571:
+      ansible_host: localhost
+    my_host_572:
+      ansible_host: localhost
+    my_host_573:
+      ansible_host: localhost
+    my_host_574:
+      ansible_host: localhost
+    my_host_575:
+      ansible_host: localhost
+    my_host_576:
+      ansible_host: localhost
+    my_host_577:
+      ansible_host: localhost
+    my_host_578:
+      ansible_host: localhost
+    my_host_579:
+      ansible_host: localhost
+    my_host_580:
+      ansible_host: localhost
+    my_host_581:
+      ansible_host: localhost
+    my_host_582:
+      ansible_host: localhost
+    my_host_583:
+      ansible_host: localhost
+    my_host_584:
+      ansible_host: localhost
+    my_host_585:
+      ansible_host: localhost
+    my_host_586:
+      ansible_host: localhost
+    my_host_587:
+      ansible_host: localhost
+    my_host_588:
+      ansible_host: localhost
+    my_host_589:
+      ansible_host: localhost
+    my_host_590:
+      ansible_host: localhost
+    my_host_591:
+      ansible_host: localhost
+    my_host_592:
+      ansible_host: localhost
+    my_host_593:
+      ansible_host: localhost
+    my_host_594:
+      ansible_host: localhost
+    my_host_595:
+      ansible_host: localhost
+    my_host_596:
+      ansible_host: localhost
+    my_host_597:
+      ansible_host: localhost
+    my_host_598:
+      ansible_host: localhost
+    my_host_599:
+      ansible_host: localhost
+    my_host_600:
+      ansible_host: localhost
+    my_host_601:
+      ansible_host: localhost
+    my_host_602:
+      ansible_host: localhost
+    my_host_603:
+      ansible_host: localhost
+    my_host_604:
+      ansible_host: localhost
+    my_host_605:
+      ansible_host: localhost
+    my_host_606:
+      ansible_host: localhost
+    my_host_607:
+      ansible_host: localhost
+    my_host_608:
+      ansible_host: localhost
+    my_host_609:
+      ansible_host: localhost
+    my_host_610:
+      ansible_host: localhost
+    my_host_611:
+      ansible_host: localhost
+    my_host_612:
+      ansible_host: localhost
+    my_host_613:
+      ansible_host: localhost
+    my_host_614:
+      ansible_host: localhost
+    my_host_615:
+      ansible_host: localhost
+    my_host_616:
+      ansible_host: localhost
+    my_host_617:
+      ansible_host: localhost
+    my_host_618:
+      ansible_host: localhost
+    my_host_619:
+      ansible_host: localhost
+    my_host_620:
+      ansible_host: localhost
+    my_host_621:
+      ansible_host: localhost
+    my_host_622:
+      ansible_host: localhost
+    my_host_623:
+      ansible_host: localhost
+    my_host_624:
+      ansible_host: localhost
+    my_host_625:
+      ansible_host: localhost
+    my_host_626:
+      ansible_host: localhost
+    my_host_627:
+      ansible_host: localhost
+    my_host_628:
+      ansible_host: localhost
+    my_host_629:
+      ansible_host: localhost
+    my_host_630:
+      ansible_host: localhost
+    my_host_631:
+      ansible_host: localhost
+    my_host_632:
+      ansible_host: localhost
+    my_host_633:
+      ansible_host: localhost
+    my_host_634:
+      ansible_host: localhost
+    my_host_635:
+      ansible_host: localhost
+    my_host_636:
+      ansible_host: localhost
+    my_host_637:
+      ansible_host: localhost
+    my_host_638:
+      ansible_host: localhost
+    my_host_639:
+      ansible_host: localhost
+    my_host_640:
+      ansible_host: localhost
+    my_host_641:
+      ansible_host: localhost
+    my_host_642:
+      ansible_host: localhost
+    my_host_643:
+      ansible_host: localhost
+    my_host_644:
+      ansible_host: localhost
+    my_host_645:
+      ansible_host: localhost
+    my_host_646:
+      ansible_host: localhost
+    my_host_647:
+      ansible_host: localhost
+    my_host_648:
+      ansible_host: localhost
+    my_host_649:
+      ansible_host: localhost
+    my_host_650:
+      ansible_host: localhost
+    my_host_651:
+      ansible_host: localhost
+    my_host_652:
+      ansible_host: localhost
+    my_host_653:
+      ansible_host: localhost
+    my_host_654:
+      ansible_host: localhost
+    my_host_655:
+      ansible_host: localhost
+    my_host_656:
+      ansible_host: localhost
+    my_host_657:
+      ansible_host: localhost
+    my_host_658:
+      ansible_host: localhost
+    my_host_659:
+      ansible_host: localhost
+    my_host_660:
+      ansible_host: localhost
+    my_host_661:
+      ansible_host: localhost
+    my_host_662:
+      ansible_host: localhost
+    my_host_663:
+      ansible_host: localhost
+    my_host_664:
+      ansible_host: localhost
+    my_host_665:
+      ansible_host: localhost
+    my_host_666:
+      ansible_host: localhost
+    my_host_667:
+      ansible_host: localhost
+    my_host_668:
+      ansible_host: localhost
+    my_host_669:
+      ansible_host: localhost
+    my_host_670:
+      ansible_host: localhost
+    my_host_671:
+      ansible_host: localhost
+    my_host_672:
+      ansible_host: localhost
+    my_host_673:
+      ansible_host: localhost
+    my_host_674:
+      ansible_host: localhost
+    my_host_675:
+      ansible_host: localhost
+    my_host_676:
+      ansible_host: localhost
+    my_host_677:
+      ansible_host: localhost
+    my_host_678:
+      ansible_host: localhost
+    my_host_679:
+      ansible_host: localhost
+    my_host_680:
+      ansible_host: localhost
+    my_host_681:
+      ansible_host: localhost
+    my_host_682:
+      ansible_host: localhost
+    my_host_683:
+      ansible_host: localhost
+    my_host_684:
+      ansible_host: localhost
+    my_host_685:
+      ansible_host: localhost
+    my_host_686:
+      ansible_host: localhost
+    my_host_687:
+      ansible_host: localhost
+    my_host_688:
+      ansible_host: localhost
+    my_host_689:
+      ansible_host: localhost
+    my_host_690:
+      ansible_host: localhost
+    my_host_691:
+      ansible_host: localhost
+    my_host_692:
+      ansible_host: localhost
+    my_host_693:
+      ansible_host: localhost
+    my_host_694:
+      ansible_host: localhost
+    my_host_695:
+      ansible_host: localhost
+    my_host_696:
+      ansible_host: localhost
+    my_host_697:
+      ansible_host: localhost
+    my_host_698:
+      ansible_host: localhost
+    my_host_699:
+      ansible_host: localhost
+    my_host_700:
+      ansible_host: localhost
+    my_host_701:
+      ansible_host: localhost
+    my_host_702:
+      ansible_host: localhost
+    my_host_703:
+      ansible_host: localhost
+    my_host_704:
+      ansible_host: localhost
+    my_host_705:
+      ansible_host: localhost
+    my_host_706:
+      ansible_host: localhost
+    my_host_707:
+      ansible_host: localhost
+    my_host_708:
+      ansible_host: localhost
+    my_host_709:
+      ansible_host: localhost
+    my_host_710:
+      ansible_host: localhost
+    my_host_711:
+      ansible_host: localhost
+    my_host_712:
+      ansible_host: localhost
+    my_host_713:
+      ansible_host: localhost
+    my_host_714:
+      ansible_host: localhost
+    my_host_715:
+      ansible_host: localhost
+    my_host_716:
+      ansible_host: localhost
+    my_host_717:
+      ansible_host: localhost
+    my_host_718:
+      ansible_host: localhost
+    my_host_719:
+      ansible_host: localhost
+    my_host_720:
+      ansible_host: localhost
+    my_host_721:
+      ansible_host: localhost
+    my_host_722:
+      ansible_host: localhost
+    my_host_723:
+      ansible_host: localhost
+    my_host_724:
+      ansible_host: localhost
+    my_host_725:
+      ansible_host: localhost
+    my_host_726:
+      ansible_host: localhost
+    my_host_727:
+      ansible_host: localhost
+    my_host_728:
+      ansible_host: localhost
+    my_host_729:
+      ansible_host: localhost
+    my_host_730:
+      ansible_host: localhost
+    my_host_731:
+      ansible_host: localhost
+    my_host_732:
+      ansible_host: localhost
+    my_host_733:
+      ansible_host: localhost
+    my_host_734:
+      ansible_host: localhost
+    my_host_735:
+      ansible_host: localhost
+    my_host_736:
+      ansible_host: localhost
+    my_host_737:
+      ansible_host: localhost
+    my_host_738:
+      ansible_host: localhost
+    my_host_739:
+      ansible_host: localhost
+    my_host_740:
+      ansible_host: localhost
+    my_host_741:
+      ansible_host: localhost
+    my_host_742:
+      ansible_host: localhost
+    my_host_743:
+      ansible_host: localhost
+    my_host_744:
+      ansible_host: localhost
+    my_host_745:
+      ansible_host: localhost
+    my_host_746:
+      ansible_host: localhost
+    my_host_747:
+      ansible_host: localhost
+    my_host_748:
+      ansible_host: localhost
+    my_host_749:
+      ansible_host: localhost
+    my_host_750:
+      ansible_host: localhost
+    my_host_751:
+      ansible_host: localhost
+    my_host_752:
+      ansible_host: localhost
+    my_host_753:
+      ansible_host: localhost
+    my_host_754:
+      ansible_host: localhost
+    my_host_755:
+      ansible_host: localhost
+    my_host_756:
+      ansible_host: localhost
+    my_host_757:
+      ansible_host: localhost
+    my_host_758:
+      ansible_host: localhost
+    my_host_759:
+      ansible_host: localhost
+    my_host_760:
+      ansible_host: localhost
+    my_host_761:
+      ansible_host: localhost
+    my_host_762:
+      ansible_host: localhost
+    my_host_763:
+      ansible_host: localhost
+    my_host_764:
+      ansible_host: localhost
+    my_host_765:
+      ansible_host: localhost
+    my_host_766:
+      ansible_host: localhost
+    my_host_767:
+      ansible_host: localhost
+    my_host_768:
+      ansible_host: localhost
+    my_host_769:
+      ansible_host: localhost
+    my_host_770:
+      ansible_host: localhost
+    my_host_771:
+      ansible_host: localhost
+    my_host_772:
+      ansible_host: localhost
+    my_host_773:
+      ansible_host: localhost
+    my_host_774:
+      ansible_host: localhost
+    my_host_775:
+      ansible_host: localhost
+    my_host_776:
+      ansible_host: localhost
+    my_host_777:
+      ansible_host: localhost
+    my_host_778:
+      ansible_host: localhost
+    my_host_779:
+      ansible_host: localhost
+    my_host_780:
+      ansible_host: localhost
+    my_host_781:
+      ansible_host: localhost
+    my_host_782:
+      ansible_host: localhost
+    my_host_783:
+      ansible_host: localhost
+    my_host_784:
+      ansible_host: localhost
+    my_host_785:
+      ansible_host: localhost
+    my_host_786:
+      ansible_host: localhost
+    my_host_787:
+      ansible_host: localhost
+    my_host_788:
+      ansible_host: localhost
+    my_host_789:
+      ansible_host: localhost
+    my_host_790:
+      ansible_host: localhost
+    my_host_791:
+      ansible_host: localhost
+    my_host_792:
+      ansible_host: localhost
+    my_host_793:
+      ansible_host: localhost
+    my_host_794:
+      ansible_host: localhost
+    my_host_795:
+      ansible_host: localhost
+    my_host_796:
+      ansible_host: localhost
+    my_host_797:
+      ansible_host: localhost
+    my_host_798:
+      ansible_host: localhost
+    my_host_799:
+      ansible_host: localhost
+    my_host_800:
+      ansible_host: localhost
+    my_host_801:
+      ansible_host: localhost
+    my_host_802:
+      ansible_host: localhost
+    my_host_803:
+      ansible_host: localhost
+    my_host_804:
+      ansible_host: localhost
+    my_host_805:
+      ansible_host: localhost
+    my_host_806:
+      ansible_host: localhost
+    my_host_807:
+      ansible_host: localhost
+    my_host_808:
+      ansible_host: localhost
+    my_host_809:
+      ansible_host: localhost
+    my_host_810:
+      ansible_host: localhost
+    my_host_811:
+      ansible_host: localhost
+    my_host_812:
+      ansible_host: localhost
+    my_host_813:
+      ansible_host: localhost
+    my_host_814:
+      ansible_host: localhost
+    my_host_815:
+      ansible_host: localhost
+    my_host_816:
+      ansible_host: localhost
+    my_host_817:
+      ansible_host: localhost
+    my_host_818:
+      ansible_host: localhost
+    my_host_819:
+      ansible_host: localhost
+    my_host_820:
+      ansible_host: localhost
+    my_host_821:
+      ansible_host: localhost
+    my_host_822:
+      ansible_host: localhost
+    my_host_823:
+      ansible_host: localhost
+    my_host_824:
+      ansible_host: localhost
+    my_host_825:
+      ansible_host: localhost
+    my_host_826:
+      ansible_host: localhost
+    my_host_827:
+      ansible_host: localhost
+    my_host_828:
+      ansible_host: localhost
+    my_host_829:
+      ansible_host: localhost
+    my_host_830:
+      ansible_host: localhost
+    my_host_831:
+      ansible_host: localhost
+    my_host_832:
+      ansible_host: localhost
+    my_host_833:
+      ansible_host: localhost
+    my_host_834:
+      ansible_host: localhost
+    my_host_835:
+      ansible_host: localhost
+    my_host_836:
+      ansible_host: localhost
+    my_host_837:
+      ansible_host: localhost
+    my_host_838:
+      ansible_host: localhost
+    my_host_839:
+      ansible_host: localhost
+    my_host_840:
+      ansible_host: localhost
+    my_host_841:
+      ansible_host: localhost
+    my_host_842:
+      ansible_host: localhost
+    my_host_843:
+      ansible_host: localhost
+    my_host_844:
+      ansible_host: localhost
+    my_host_845:
+      ansible_host: localhost
+    my_host_846:
+      ansible_host: localhost
+    my_host_847:
+      ansible_host: localhost
+    my_host_848:
+      ansible_host: localhost
+    my_host_849:
+      ansible_host: localhost
+    my_host_850:
+      ansible_host: localhost
+    my_host_851:
+      ansible_host: localhost
+    my_host_852:
+      ansible_host: localhost
+    my_host_853:
+      ansible_host: localhost
+    my_host_854:
+      ansible_host: localhost
+    my_host_855:
+      ansible_host: localhost
+    my_host_856:
+      ansible_host: localhost
+    my_host_857:
+      ansible_host: localhost
+    my_host_858:
+      ansible_host: localhost
+    my_host_859:
+      ansible_host: localhost
+    my_host_860:
+      ansible_host: localhost
+    my_host_861:
+      ansible_host: localhost
+    my_host_862:
+      ansible_host: localhost
+    my_host_863:
+      ansible_host: localhost
+    my_host_864:
+      ansible_host: localhost
+    my_host_865:
+      ansible_host: localhost
+    my_host_866:
+      ansible_host: localhost
+    my_host_867:
+      ansible_host: localhost
+    my_host_868:
+      ansible_host: localhost
+    my_host_869:
+      ansible_host: localhost
+    my_host_870:
+      ansible_host: localhost
+    my_host_871:
+      ansible_host: localhost
+    my_host_872:
+      ansible_host: localhost
+    my_host_873:
+      ansible_host: localhost
+    my_host_874:
+      ansible_host: localhost
+    my_host_875:
+      ansible_host: localhost
+    my_host_876:
+      ansible_host: localhost
+    my_host_877:
+      ansible_host: localhost
+    my_host_878:
+      ansible_host: localhost
+    my_host_879:
+      ansible_host: localhost
+    my_host_880:
+      ansible_host: localhost
+    my_host_881:
+      ansible_host: localhost
+    my_host_882:
+      ansible_host: localhost
+    my_host_883:
+      ansible_host: localhost
+    my_host_884:
+      ansible_host: localhost
+    my_host_885:
+      ansible_host: localhost
+    my_host_886:
+      ansible_host: localhost
+    my_host_887:
+      ansible_host: localhost
+    my_host_888:
+      ansible_host: localhost
+    my_host_889:
+      ansible_host: localhost
+    my_host_890:
+      ansible_host: localhost
+    my_host_891:
+      ansible_host: localhost
+    my_host_892:
+      ansible_host: localhost
+    my_host_893:
+      ansible_host: localhost
+    my_host_894:
+      ansible_host: localhost
+    my_host_895:
+      ansible_host: localhost
+    my_host_896:
+      ansible_host: localhost
+    my_host_897:
+      ansible_host: localhost
+    my_host_898:
+      ansible_host: localhost
+    my_host_899:
+      ansible_host: localhost
+    my_host_900:
+      ansible_host: localhost
+    my_host_901:
+      ansible_host: localhost
+    my_host_902:
+      ansible_host: localhost
+    my_host_903:
+      ansible_host: localhost
+    my_host_904:
+      ansible_host: localhost
+    my_host_905:
+      ansible_host: localhost
+    my_host_906:
+      ansible_host: localhost
+    my_host_907:
+      ansible_host: localhost
+    my_host_908:
+      ansible_host: localhost
+    my_host_909:
+      ansible_host: localhost
+    my_host_910:
+      ansible_host: localhost
+    my_host_911:
+      ansible_host: localhost
+    my_host_912:
+      ansible_host: localhost
+    my_host_913:
+      ansible_host: localhost
+    my_host_914:
+      ansible_host: localhost
+    my_host_915:
+      ansible_host: localhost
+    my_host_916:
+      ansible_host: localhost
+    my_host_917:
+      ansible_host: localhost
+    my_host_918:
+      ansible_host: localhost
+    my_host_919:
+      ansible_host: localhost
+    my_host_920:
+      ansible_host: localhost
+    my_host_921:
+      ansible_host: localhost
+    my_host_922:
+      ansible_host: localhost
+    my_host_923:
+      ansible_host: localhost
+    my_host_924:
+      ansible_host: localhost
+    my_host_925:
+      ansible_host: localhost
+    my_host_926:
+      ansible_host: localhost
+    my_host_927:
+      ansible_host: localhost
+    my_host_928:
+      ansible_host: localhost
+    my_host_929:
+      ansible_host: localhost
+    my_host_930:
+      ansible_host: localhost
+    my_host_931:
+      ansible_host: localhost
+    my_host_932:
+      ansible_host: localhost
+    my_host_933:
+      ansible_host: localhost
+    my_host_934:
+      ansible_host: localhost
+    my_host_935:
+      ansible_host: localhost
+    my_host_936:
+      ansible_host: localhost
+    my_host_937:
+      ansible_host: localhost
+    my_host_938:
+      ansible_host: localhost
+    my_host_939:
+      ansible_host: localhost
+    my_host_940:
+      ansible_host: localhost
+    my_host_941:
+      ansible_host: localhost
+    my_host_942:
+      ansible_host: localhost
+    my_host_943:
+      ansible_host: localhost
+    my_host_944:
+      ansible_host: localhost
+    my_host_945:
+      ansible_host: localhost
+    my_host_946:
+      ansible_host: localhost
+    my_host_947:
+      ansible_host: localhost
+    my_host_948:
+      ansible_host: localhost
+    my_host_949:
+      ansible_host: localhost
+    my_host_950:
+      ansible_host: localhost
+    my_host_951:
+      ansible_host: localhost
+    my_host_952:
+      ansible_host: localhost
+    my_host_953:
+      ansible_host: localhost
+    my_host_954:
+      ansible_host: localhost
+    my_host_955:
+      ansible_host: localhost
+    my_host_956:
+      ansible_host: localhost
+    my_host_957:
+      ansible_host: localhost
+    my_host_958:
+      ansible_host: localhost
+    my_host_959:
+      ansible_host: localhost
+    my_host_960:
+      ansible_host: localhost
+    my_host_961:
+      ansible_host: localhost
+    my_host_962:
+      ansible_host: localhost
+    my_host_963:
+      ansible_host: localhost
+    my_host_964:
+      ansible_host: localhost
+    my_host_965:
+      ansible_host: localhost
+    my_host_966:
+      ansible_host: localhost
+    my_host_967:
+      ansible_host: localhost
+    my_host_968:
+      ansible_host: localhost
+    my_host_969:
+      ansible_host: localhost
+    my_host_970:
+      ansible_host: localhost
+    my_host_971:
+      ansible_host: localhost
+    my_host_972:
+      ansible_host: localhost
+    my_host_973:
+      ansible_host: localhost
+    my_host_974:
+      ansible_host: localhost
+    my_host_975:
+      ansible_host: localhost
+    my_host_976:
+      ansible_host: localhost
+    my_host_977:
+      ansible_host: localhost
+    my_host_978:
+      ansible_host: localhost
+    my_host_979:
+      ansible_host: localhost
+    my_host_980:
+      ansible_host: localhost
+    my_host_981:
+      ansible_host: localhost
+    my_host_982:
+      ansible_host: localhost
+    my_host_983:
+      ansible_host: localhost
+    my_host_984:
+      ansible_host: localhost
+    my_host_985:
+      ansible_host: localhost
+    my_host_986:
+      ansible_host: localhost
+    my_host_987:
+      ansible_host: localhost
+    my_host_988:
+      ansible_host: localhost
+    my_host_989:
+      ansible_host: localhost
+    my_host_990:
+      ansible_host: localhost
+    my_host_991:
+      ansible_host: localhost
+    my_host_992:
+      ansible_host: localhost
+    my_host_993:
+      ansible_host: localhost
+    my_host_994:
+      ansible_host: localhost
+    my_host_995:
+      ansible_host: localhost
+    my_host_996:
+      ansible_host: localhost
+    my_host_997:
+      ansible_host: localhost
+    my_host_998:
+      ansible_host: localhost
+    my_host_999:
+      ansible_host: localhost
+    my_host_1000:
       ansible_host: localhost
 
 skip_nginx:
