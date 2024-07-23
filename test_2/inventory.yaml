@@ -9,5 +9,5 @@ myhosts:
 
 skip_nginx:
   hosts:
-    my_host_01:
+    skip_host_01:
       ansible_host: localhost
