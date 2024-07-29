@@ -1,0 +1,70 @@
+- hosts: myhosts
+  tasks:
+  - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
+    become: true
+    ansible.builtin.file:
+      path: /etc/foo.conf
+      state: touch
+      mode: u=rw,g=r,o=r
+  - name: Touch the other file, add other permissions
+    become: true
+    ansible.builtin.file:
+      path: /etc/foo2.conf
+      state: touch
+      mode: u+rw,g-wx,o-rwx
+  - name: Install apache httpd  (state=present is optional)
+    become: true
+    ansible.builtin.apt:
+      name: apache2
+      update_cache: yes
+      state: present
+  - name: Install nginx (state=present is optional)
+    become: true
+    when: inventory_hostname not in groups['skip_nginx']
+    ansible.builtin.apt:
+      name: nginx
+      update_cache: yes
+      state: present
+  - name: intentional fail to produce ignore
+    command: rm /tmp/nonexistingfile
+    register: command_result
+    ignore_errors: yes
+  - name: intentional rescue
+    block:
+      - name: Print a message
+        ansible.builtin.debug:
+          msg: 'I execute normally'
+
+      - name: Force a failure
+        ansible.builtin.command: /bin/false
+
+      - name: Never print this
+        ansible.builtin.debug:
+          msg: 'I never execute, due to the above task failing, :-('
+    rescue:
+      - name: Print when errors
+        ansible.builtin.debug:
+          msg: 'I caught an error, can do stuff here to fix it, :-)'
+  - name: intentional fail to produce failed
+    command: rm /tmp/nonexistingfile
+    register: command_result
+  - name: intentional fail to produce ignore
+    command: rm /tmp/nonexistingfile
+    register: command_result
+    ignore_errors: yes
+  - name: intentional rescue
+    block:
+      - name: Print a message
+        ansible.builtin.debug:
+          msg: 'I execute normally'
+
+      - name: Force a failure
+        ansible.builtin.command: /bin/false
+
+      - name: Never print this
+        ansible.builtin.debug:
+          msg: 'I never execute, due to the above task failing, :-('
+    rescue:
+      - name: Print when errors
+        ansible.builtin.debug:
+          msg: 'I caught an error, can do stuff here to fix it, :-)'

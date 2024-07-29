@@ -6,3 +6,6 @@
       name: apache2
       update_cache: yes
       state: present
+
+- name: Include a play after another play
+  ansible.builtin.import_playbook: playbook_1.yaml
