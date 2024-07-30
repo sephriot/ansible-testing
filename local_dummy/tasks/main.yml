@@ -1,0 +1,55 @@
+- name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
+  become: false
+  ansible.builtin.file:
+    path: /tmp/foo.conf
+    state: touch
+    mode: u=rw,g=r,o=r
+- name: Remove file
+  become: false
+  ansible.builtin.file:
+    path: /tmp/foo.conf
+    state: absent
+- name: Skipped example
+  become: true
+  when: false
+  community.general.apk:
+    name: apache2
+    update_cache: yes
+    state: present
+- name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
+  become: false
+  ansible.builtin.file:
+    path: /tmp/foo.conf
+    state: touch
+    mode: u=rw,g=r,o=r
+- name: Remove file
+  become: false
+  ansible.builtin.file:
+    path: /tmp/foo.conf
+    state: absent
+- name: Skipped example
+  become: true
+  when: false
+  community.general.apk:
+    name: apache2
+    update_cache: yes
+    state: present
+
+- name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
+  become: false
+  ansible.builtin.file:
+    path: /tmp/foo.conf
+    state: touch
+    mode: u=rw,g=r,o=r
+- name: Remove file
+  become: false
+  ansible.builtin.file:
+    path: /tmp/foo.conf
+    state: absent
+- name: Skipped example
+  become: true
+  when: false
+  community.general.apk:
+    name: apache2
+    update_cache: yes
+    state: present
