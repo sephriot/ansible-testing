@@ -1,4 +1,5 @@
 - hosts: myhosts
+  connection: local
   roles:
     - role: "local_dummy"
       become: true
