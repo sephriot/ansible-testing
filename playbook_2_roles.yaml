@@ -2,7 +2,7 @@
   roles:
     - role: "local_dummy"
       become: true
-    - role: geerlingguy.java
+    - role: webofmars.dummy
       become: true
 
   tasks:
