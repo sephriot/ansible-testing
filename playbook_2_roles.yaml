@@ -8,19 +8,19 @@
 
   tasks:
   - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-    become: true
+    become: false
     ansible.builtin.file:
       path: /etc/foo.conf
       state: touch
       mode: u=rw,g=r,o=r
   - name: Touch the other file, add other permissions
-    become: true
+    become: false
     ansible.builtin.file:
       path: /etc/foo2.conf
       state: touch
       mode: u+rw,g-wx,o-rwx
   - name: Install apache httpd  (state=present is optional)
-    become: true
+    become: false
     ignore_unreachable: yes
     ignore_errors: yes
     ansible.builtin.apt:
