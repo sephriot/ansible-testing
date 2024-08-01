@@ -1,11 +1,10 @@
----
 - name: Spacelift Ansible v2 end-to-end test
   hosts: all
   connection: local
 
   roles:
-    - role: webofmars.dummy
-      become: true
+  - role: webofmars.dummy
+    become: true
  
   tasks:
   - name: Hello World!
