@@ -4,7 +4,6 @@
 
   roles:
   - role: webofmars.dummy
-    become: true
  
   tasks:
   - name: Hello World!
