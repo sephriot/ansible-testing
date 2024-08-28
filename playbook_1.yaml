@@ -18,6 +18,14 @@
       name: apache2
       update_cache: yes
       state: present
-  - name: Display all variables/facts known for a host
+  - name: Print a message
+    loop: "{{ range(5) }}"
     ansible.builtin.debug:
-      var: hostvars[inventory_hostname]
+      msg: 'I execute normally'
+  - name: intentional fail to produce ignore
+    command: rm /tmp/nonexistingfile
+    register: command_result
+    ignore_errors: yes
+  # - name: Display all variables/facts known for a host
+  #   ansible.builtin.debug:
+  #     var: hostvars[inventory_hostname]
