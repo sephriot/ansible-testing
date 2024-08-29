@@ -22,6 +22,10 @@
     loop: "{{ range(5) }}"
     ansible.builtin.debug:
       msg: 'I execute normally'
+  - name: Print a message
+    loop: "{{ range(10) }}"
+    ansible.builtin.debug:
+      msg: 'Dummy message'
   - name: intentional fail to produce ignore
     command: rm /tmp/nonexistingfile
     register: command_result
