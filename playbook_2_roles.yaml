@@ -29,4 +29,11 @@
       name: apache2
       update_cache: yes
       state: present
-
+  - name: Print a message
+    loop: "{{ range(5) }}"
+    ansible.builtin.debug:
+      msg: 'I execute normally'
+  - name: Print a message
+    loop: "{{ range(10) }}"
+    ansible.builtin.debug:
+      msg: 'Dummy message'

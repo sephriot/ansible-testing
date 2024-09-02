@@ -1,5 +1,4 @@
 - hosts: myhosts
-  connection: local
   tasks:
   - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
     become: true
