@@ -2,9 +2,9 @@
   connection: local
   roles:
     - role: "local_dummy"
-      become: true
+      become: false
     - role: webofmars.dummy
-      become: true
+      become: false
 
   tasks:
   - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)

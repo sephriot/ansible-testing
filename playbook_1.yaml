@@ -18,14 +18,23 @@
       name: apache2
       update_cache: yes
       state: present
+  - name: Only in check mode
+    loop: "{{ range(5) }}"
+    when: ansible_check_mode
+    ansible.builtin.debug:
+      msg: 'I execute only in check mode'
   - name: Print a message
     loop: "{{ range(5) }}"
     ansible.builtin.debug:
       msg: 'I execute normally'
   - name: Print a message
-    loop: "{{ range(10) }}"
     ansible.builtin.debug:
       msg: 'Dummy message'
+    with_items:
+    - { x: 'message 1', y: 'condition'}
+    - { x: 'message 2', y: True}
+    when:
+      - item.y == True
   - name: intentional fail to produce ignore
     command: rm /tmp/nonexistingfile
     register: command_result
