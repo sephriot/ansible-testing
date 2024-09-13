@@ -12,13 +12,8 @@
       path: /etc/foo2.conf
       state: touch
       mode: u+rw,g-wx,o-rwx
-  - name: Install apache httpd  (state=present is optional)
-    become: true
-    ignore_errors: inventory_hostname == 'my_host_01'
-    ansible.builtin.apt:
-      name: apache2
-      update_cache: yes
-      state: present
+  - name: intentional fail to produce failed
+    command: rm /tmp/nonexistingfile
   - name: Only in check mode
     loop: "{{ range(5) }}"
     when: ansible_check_mode
