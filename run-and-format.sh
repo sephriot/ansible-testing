@@ -1,7 +1,8 @@
 #!/bin/bash
 
 rm -rf ./artifacts/apply/job_events/*
-ansible-runner run -i apply --artifact-dir=artifacts . -p "${1}" --inventory inventory_local.yaml -v
+# ansible-runner run -i apply --artifact-dir=artifacts . -p "${1}" --inventory inventory_local.yaml -v
+ansible-runner run -i apply --artifact-dir=artifacts . -p "${1}" --inventory inventory_local.yaml -v --cmdline="--check --diff"
 echo "Exit code: $?"
 cd ./artifacts/apply/job_events
 
