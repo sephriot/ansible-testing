@@ -5,7 +5,7 @@
   - name: Add a line to a file if the file does not exist, without passing regexp
     ansible.builtin.lineinfile:
       path: /tmp/testfile
-      line: {{ date }}
+      line: "{{ date }}"
       create: yes
   - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
     become: true
