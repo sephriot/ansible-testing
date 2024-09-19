@@ -5,9 +5,12 @@
       path: /tmp/testfile
       line: "{{ lookup('pipe','date +%Y-%m-%d') }}"
       create: yes
-  - ansible.builtin.debug:
-      msg: "the value of /tmp/testfile is {{ lookup('ansible.builtin.file', '/tmp/testfile') }}"
-      when: ansible_check_mode == False
+  - name: Display /tmp/testfile contents
+    command: cat /tmp/testfile
+    register: command_output
+  - name: Print to console
+    debug:
+      msg: "{{command_output.stdout}}"
   - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
     become: true
     ansible.builtin.file:
