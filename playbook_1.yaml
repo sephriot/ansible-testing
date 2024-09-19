@@ -3,7 +3,7 @@
   - name: Add a line to a file if the file, without passing regexp
     ansible.builtin.lineinfile:
       path: /tmp/testfile
-      line: "{{ lookup('pipe','date +%Y-%m-%d') }}"
+      line: "{{ lookup('pipe','date +%Y-%m-%dT%H:%M:%S') }}"
       create: yes
   - name: Display /tmp/testfile contents
     command: cat /tmp/testfile
