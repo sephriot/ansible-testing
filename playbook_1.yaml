@@ -1,4 +1,5 @@
 - hosts: myhosts
+  connection: local
   tasks:
   - name: Add a line to a file if the file, without passing regexp
     ansible.builtin.lineinfile:
