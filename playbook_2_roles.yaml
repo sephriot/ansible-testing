@@ -7,6 +7,17 @@
       become: false
 
   tasks:
+  - name: Add a line to a file if the file, without passing regexp
+    ansible.builtin.lineinfile:
+      path: /tmp/testfile
+      line: "{{ lookup('pipe','date +%Y-%m-%dT%H:%M:%S') }}"
+      create: yes
+  - name: Display /tmp/testfile contents
+    command: cat /tmp/testfile
+    register: command_output
+  - name: Print to console
+    debug:
+      msg: "{{command_output.stdout}}"
   - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
     become: false
     ignore_errors: yes
