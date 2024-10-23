@@ -30,7 +30,7 @@ environment:
 2. Run playbook_2 without installing the role. Display error, add hook, run again
 3. Display failed task
 4. Ignore failed task
-5. Show how to skip planning
+5. Show how to skip planning - custom runtime
 6. Discard SKIP_PLANNING and present rescue status
 7. Present drift in hosts if gathering tasks is inconsistent
 
