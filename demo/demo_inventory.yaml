@@ -1,0 +1,10 @@
+demo_hosts:
+  hosts:
+    demo_01:
+      ansible_host: localhost
+    demo_02:
+      ansible_host: localhost
+    demo_03:
+      ansible_host: localhost
+    demo_04:
+      ansible_host: localhost
