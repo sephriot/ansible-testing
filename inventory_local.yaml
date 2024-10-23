@@ -16,3 +16,14 @@ skip_nginx:
   hosts:
     my_host_01:
       ansible_host: localhost
+
+live_demo_hosts:
+  hosts:
+    live_demo_01:
+      ansible_host: localhost
+    live_demo_02:
+      ansible_host: localhost
+    live_demo_03:
+      ansible_host: localhost
+    live_demo_04:
+      ansible_host: localhost

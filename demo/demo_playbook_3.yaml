@@ -1,6 +1,6 @@
 ---
 - name: Demo
-  hosts: demo_hosts
+  hosts: live_demo_hosts
   connection: local
   roles:
     - webofmars.dummy

@@ -1,8 +1,8 @@
 ---
 - name: Demo
-  hosts: demo_hosts
+  hosts: live_demo_hosts
   connection: local
-  gather_facts: "{{ false if ansible_check_mode else true }}"
+  gather_facts: false
   roles:
     - webofmars.dummy
   tasks:

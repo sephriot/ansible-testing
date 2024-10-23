@@ -1,6 +1,6 @@
 ---
 - name: Demo
-  hosts: demo_hosts
+  hosts: live_demo_hosts
   connection: local
   roles:
     - webofmars.dummy
@@ -29,4 +29,3 @@
         - { file_name: a.yaml, other_prop: value }
         - { file_name: b.yaml, other_prop: value }
         - { file_name: cde.yaml, other_prop: value }
-
