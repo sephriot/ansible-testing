@@ -16,6 +16,14 @@ ansible-galaxy role install webofmars.dummy
 ```
 
 https://docs.spacelift.io/vendors/ansible/reference
+```
+SPACELIFT_ANSIBLE_CLI_ARGS="--diff"
+```
+
+```
+environment:
+    SPACELIFT_SKIP_PLANNING: true
+```
 
 ### Plan
 1. Configure stack, show simple run, then edit inventory to use one mounted from context, execute run again, display only one host being updated.
@@ -23,5 +31,6 @@ https://docs.spacelift.io/vendors/ansible/reference
 3. Display failed task
 4. Ignore failed task
 5. Show how to skip planning
-6. Present rescue status
+6. Discard SKIP_PLANNING and present rescue status
 7. Present drift in hosts if gathering tasks is inconsistent
+
