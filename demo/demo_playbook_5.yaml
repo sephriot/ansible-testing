@@ -28,7 +28,3 @@
         - { file_name: a.yaml, other_prop: value }
         - { file_name: b.yaml, other_prop: value }
         - { file_name: cde.yaml, other_prop: value }
-    - name: Command Display Docker version
-      ansible.builtin.command: docker --version
-      register: docker_version # <- Registers the command output.
-      changed_when: docker_version.rc != 0 # <- Uses the return code to define when the task has changed.

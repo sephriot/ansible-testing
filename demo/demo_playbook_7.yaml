@@ -35,7 +35,3 @@
         - name: Print when errors
           ansible.builtin.debug:
             msg: 'I caught an error, can do stuff here to fix it, :-)'
-    - name: Command Display Docker version
-      ansible.builtin.command: docker --version
-      register: docker_version # <- Registers the command output.
-      changed_when: docker_version.rc != 0 # <- Uses the return code to define when the task has changed.

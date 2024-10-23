@@ -12,7 +12,7 @@
 
 ### Helper lines
 ```
-ansible-galaxy role install geerlingguy.docker
+ansible-galaxy role install webofmars.dummy
 ```
 
 https://docs.spacelift.io/vendors/ansible/reference
