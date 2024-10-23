@@ -4,7 +4,7 @@
   connection: local
   gather_facts: "{{ false if ansible_check_mode else true }}"
   roles:
-    - geerlingguy.docker
+    - webofmars.dummy
   tasks:
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
       become: false

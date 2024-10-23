@@ -3,7 +3,7 @@
   hosts: demo_hosts
   connection: local
   roles:
-    - geerlingguy.docker
+    - webofmars.dummy
   tasks:
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
       become: false
