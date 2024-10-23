@@ -18,7 +18,6 @@
         - b.yaml
         - cde.yaml
     - name: Add a line to a file if the file, without passing regexp
-      when: not ansible_check_mode
       ansible.builtin.lineinfile:
         path: "{{ item.file_name }}"
         line: "{{ lookup('pipe', 'date +%Y-%m-%dT%H:%M:%S') }}"
@@ -29,10 +28,3 @@
         - { file_name: a.yaml, other_prop: value }
         - { file_name: b.yaml, other_prop: value }
         - { file_name: cde.yaml, other_prop: value }
-    - name: Add a line to a file if the file, without passing regexp
-      ansible.builtin.lineinfile:
-        path: "{{ item.file_name }}"
-        line: "{{ lookup('pipe', 'date +%Y-%m-%dT%H:%M:%S') }}"
-        create: false
-      loop:
-        - { file_name: xyz.yaml, other_prop: value }
