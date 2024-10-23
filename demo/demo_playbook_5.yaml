@@ -32,21 +32,3 @@
       ansible.builtin.command: docker --version
       register: docker_version # <- Registers the command output.
       changed_when: docker_version.rc != 0 # <- Uses the return code to define when the task has changed.
-    - name: Add a line to a file if the file, without passing regexp
-      ignore_errors: true
-      register: ignore_errors_register
-      ansible.builtin.lineinfile:
-        path: "{{ item.file_name }}"
-        line: "{{ lookup('pipe', 'date +%Y-%m-%dT%H:%M:%S') }}"
-        create: false
-      loop:
-        - { file_name: xyz.yaml, other_prop: value }
-    - name: Ignore error in check mode
-      failed_when: ansible_check_mode == True
-      register: ignore_errors_register
-      ansible.builtin.lineinfile:
-        path: "{{ item.file_name }}"
-        line: "{{ lookup('pipe', 'date +%Y-%m-%dT%H:%M:%S') }}"
-        create: false
-      loop:
-        - { file_name: xyz.yaml, other_prop: value }
