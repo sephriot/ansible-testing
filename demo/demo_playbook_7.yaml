@@ -1,0 +1,61 @@
+---
+- name: Demo
+  hosts: demo_hosts
+  connection: local
+  gather_facts: "{{ false if ansible_check_mode else true }}"
+  roles:
+    - geerlingguy.docker
+  tasks:
+    - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
+      become: false
+      ansible.builtin.file:
+        path: "{{ item }}"
+        state: touch
+        mode: u=rw,g=r,o=r
+      loop:
+        - 1.yaml
+        - 2.yaml
+        - a.yaml
+        - b.yaml
+        - cde.yaml
+    - name: Add a line to a file if the file, without passing regexp
+      ansible.builtin.lineinfile:
+        path: "{{ item.file_name }}"
+        line: "{{ lookup('pipe', 'date +%Y-%m-%dT%H:%M:%S') }}"
+        create: false
+      loop:
+        - { file_name: 1.yaml, other_prop: value }
+        - { file_name: 2.yaml, other_prop: value }
+        - { file_name: a.yaml, other_prop: value }
+        - { file_name: b.yaml, other_prop: value }
+        - { file_name: cde.yaml, other_prop: value }
+    - name: Command Display Docker version
+      ansible.builtin.command: docker --version
+      register: docker_version # <- Registers the command output.
+      changed_when: docker_version.rc != 0 # <- Uses the return code to define when the task has changed.
+    - name: Add a line to a file if the file, without passing regexp
+      failed_when: ansible_check_mode == True
+      register: ignore_errors_register
+      ansible.builtin.lineinfile:
+        path: "{{ item.file_name }}"
+        line: "{{ lookup('pipe', 'date +%Y-%m-%dT%H:%M:%S') }}"
+        create: false
+      loop:
+        - { file_name: xyz.yaml, other_prop: value }
+    - name: Intentional rescue
+      block:
+        - name: Print a message
+          ansible.builtin.debug:
+            msg: I execute normally
+
+        - name: Force a failure
+          ansible.builtin.command: /bin/false
+          changed_when: docker_version.rc != 0 # <- Uses the return code to define when the task has changed.
+
+        - name: Never print this
+          ansible.builtin.debug:
+            msg: I never execute, due to the above task failing, :-(
+      rescue:
+        - name: Print when errors
+          ansible.builtin.debug:
+            msg: I caught an error, can do stuff here to fix it, :-)
