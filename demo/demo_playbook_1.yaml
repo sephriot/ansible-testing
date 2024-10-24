@@ -1,6 +1,6 @@
 ---
 - name: Demo
-  hosts: live_demo_hosts
+  hosts: all
   connection: local
   tasks:
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
