@@ -1,0 +1,6 @@
+version: "1"
+
+stack_defaults:
+    environment:
+      ANSIBLE_INVENTORY: "/mnt/workspace/source/hosts"
+
