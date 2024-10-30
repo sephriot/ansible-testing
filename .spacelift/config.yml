@@ -1,7 +1,7 @@
 version: "1"
 
 stack_defaults:
-    environment:
-      ANSIBLE_INVENTORY: "/mnt/workspace/source/hosts"
-      STACK_DEFAULTS_TEST: "test"
+  environment:
+    ANSIBLE_INVENTORY: "/mnt/workspace/source/hosts"
+    STACK_DEFAULTS_TEST: "test"
 
