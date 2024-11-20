@@ -3,1010 +3,842 @@
   connection: local
   tasks:
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
-      become: true
       ansible.builtin.file:
-        path: /etc/foo.conf
+        path: foo.conf
         state: touch
         mode: u=rw,g=r,o=r
     - name: Touch the other file, add other permissions
-      become: true
       ansible.builtin.file:
-        path: /etc/foo2.conf
+        path: foo2.conf
         state: touch
         mode: u+rw,g-wx,o-rwx
