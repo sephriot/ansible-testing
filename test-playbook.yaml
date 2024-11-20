@@ -1,9 +1,6 @@
 - name: Test playbook
   hosts: myhosts
   connection: local
-  roles:
-    - role: geerlingguy.java
-      become: true
   tasks:
     - name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
       become: true
