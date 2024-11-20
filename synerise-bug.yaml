@@ -1,0 +1,49 @@
+- name: Test playbook
+  hosts: myhosts
+  tasks:
+    - name: Remove files
+      ansible.builtin.file:
+        path: "/home/bilbo/{{ item.file_name }}"
+        state: absent
+      loop:
+        - content: "{{ lookup('pipe', 'date +%Y-%m-%dT%H:%M:%S') }}"
+          file_name: fullchain.pem
+        - content: "{{ lookup('pipe', 'date +%Y-%m-%dT%H:%M:%S') }}"
+          file_name: /home/bilbo/privkey.pem
+    - name: Provoke weird diff
+      ansible.builtin.copy:
+        content: "{{ item.content }}"
+        dest: "{{ item.file_name }}"
+        owner: "bilbo"
+        group: "bilbo"
+        mode: "0640"
+      loop:
+        - content: "{ \"test_key\": \"private key file content\"}"
+          file_name: /home/bilbo/privkey.pem
+
+    - name: Save content of fetched variables from Vault to files
+      ansible.builtin.copy:
+        content: "{{ item.content }}"
+        dest: "{{ item.file_name }}"
+        owner: "bilbo"
+        group: "bilbo"
+        mode: "0640"
+      loop:
+        - content: "{{ lookup('pipe', 'date +%Y-%m-%dT%H:%M:%S') }}"
+          file_name: fullchain.pem
+        - content: "{ \"test_key\": \"private key file content\"}"
+          file_name: /home/bilbo/privkey.pem
+      register: _copied_certificate_result
+
+    - name: Save content of fetched variables from Vault to files
+      ansible.builtin.copy:
+        content: "{{ item.content }}"
+        dest: "{{ item.file_name }}"
+        owner: "bilbo"
+        group: "bilbo"
+        mode: "0640"
+      loop:
+        - content: "{{ lookup('pipe', 'date +%Y-%m-%dT%H:%M:%S') }}"
+          file_name: fullchain.pem
+        - content: "{ \"test_key\": \"private key file content\"}"
+          file_name: /home/bilbo/privkey.pem
