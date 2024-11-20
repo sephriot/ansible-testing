@@ -1,5 +1,6 @@
 - name: Test playbook
   hosts: myhosts
+  connection: local
   roles:
     - role: geerlingguy.java
       become: true
